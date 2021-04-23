@@ -1,0 +1,130 @@
+.header-block{
+	display: flex;
+	justify-content: space-around;
+	padding-top: 50px;
+	letter-spacing: 2.4px;
+}
+.nava{
+	font-size: 28px;
+	color: white;
+}
+.nav-ul{
+	display: flex;
+
+}
+li{
+	margin-right: 2rem;
+}
+.header-bg{
+	background-image: url(../img/bgimage.jpg);
+	widows: 100%;
+	height: 900px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.nav-a{
+	color: #FFFFFF;
+	font-size: 12px;
+}
+.header-title{
+	color: #FFFFFF;
+	font-size: 100px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+/*first section1*/
+.left-box{
+	width: 50%;
+}
+.right-box{
+	width: 50%;
+
+}
+
+.box-bgimage{
+	background-image: url(../img/image2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 601px;
+	
+}
+.wraper-box{
+	display: flex;
+}
+.wraper-box h2{
+	font-size: 50px;
+	width: 468px;
+	margin-left:120px;
+	margin-top: 90px;
+	color: #000000;
+}
+.wraper-box p{
+	font-size: 16px;
+	letter-spacing: 0.16px;
+	width: 457px;
+	padding-left: 120px;
+	padding-top: 70px;
+}
+.viev-project{
+	height: 70px;
+	width: 307px;
+	background-color: #325DFF;
+	border-radius: 36px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	text-transform: uppercase;
+	margin-left: 120px;
+    margin-top: 80px;
+}
+/*section 2*/
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+	background-color: grey;
+}
+.line1 {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.box1 {
+	width: 371px;
+	height: 374px;
+	background-color: lightblue;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.icon-box {
+	width: 88px;
+	height: 88px;
+	background-color: #325DFF;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.text {
+	width: 250px;
+	text-align: center;
+}
+.line1:nth-child(2) {
+	margin-top: 50px;
+}
+
+.box1:nth-child(1),
+.box1:nth-child(2),
+.box1:nth-child(3) {
+	margin-bottom: 50px;
+}
