@@ -20,7 +20,7 @@ li{
 }
 .header-bg{
 	background-image: url(../img/bgimage.jpg);
-	widows: 100%;
+	widht: 100%;
 	height: 900px;
 	background-size: cover;
 	background-position: center;
@@ -60,6 +60,7 @@ li{
 }
 .wraper-box{
 	display: flex;
+	flex-wrap: wrap;
 }
 .wraper-box h2{
 	font-size: 50px;
@@ -93,7 +94,8 @@ li{
 /*section 2*/
 
 .container {
-	width: 1170px;
+	max-width: 1170px;
+	width: 100%;
 	margin: 0 auto;
 	background-color: #FFFFFF;
 	margin-top: 50px;
@@ -146,7 +148,8 @@ h3{
 	margin-bottom: 50px;
 }
 .middle-article{
-	width: 570px;
+	max-width: 570px;
+	width: 100%;
 	margin: 0 auto;
 	margin-top: 70px;
 	text-align: center;
