@@ -2,6 +2,7 @@
     .header-bg{
         max-width: 1024px;
         width: 100%;
+    
     }       
     .left-box{
         max-width: 1024px;
@@ -17,6 +18,11 @@
     .middle-article{
         max-width: 300px;
         width: 100%;
+    }
+    .header-title{
+        max-width: 536px;
+        width: 100%;
+        font-size: 25px;
     }
    
 }   
@@ -45,6 +51,11 @@
     .middle-article{
         max-width: 300px;
         width: 100%;
+    }
+    .wrapper-box h2{
+        max-width: 250px;
+        width: 100%;
+        font-size:22px;
     }
 
 }   
